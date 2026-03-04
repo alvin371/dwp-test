@@ -1,66 +1,49 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
 
-export default function Home() {
+import { useEffect } from "react";
+import { AppHeader } from "@/components/layouts/app-header";
+import { AppFooter } from "@/components/layouts/app-footer";
+import { useCheckoutStore } from "./checkout/_utils/checkout.store";
+import { useAuthStore } from "@/libs/stores/auth.store";
+import { UnauthHeroSection } from "./_components/home/unauthenticated/hero-section";
+import { HowItWorksSection } from "./_components/home/unauthenticated/how-it-works-section";
+import { FaqSection } from "./_components/home/unauthenticated/faq-section";
+import { StatsSection } from "./_components/home/unauthenticated/stats-section";
+import { AuthHeroSection } from "./_components/home/authenticated/hero-section";
+import { FeatureCardsSection } from "./_components/home/authenticated/feature-cards-section";
+import { TrustedCarriersSection } from "./_components/home/authenticated/trusted-carriers-section";
+
+export default function HomePage() {
+  const { reset, goToStep } = useCheckoutStore();
+  const { isAuthenticated } = useAuthStore();
+
+  useEffect(() => {
+    reset();
+    goToStep(1);
+  }, [reset, goToStep]);
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+      <AppHeader />
+
+      <main style={{ flex: 1 }}>
+        {isAuthenticated ? (
+          <>
+            <AuthHeroSection />
+            <FeatureCardsSection />
+            <TrustedCarriersSection />
+          </>
+        ) : (
+          <>
+            <UnauthHeroSection />
+            <StatsSection />
+            <HowItWorksSection />
+            <FaqSection />
+          </>
+        )}
       </main>
+
+      <AppFooter />
     </div>
   );
 }

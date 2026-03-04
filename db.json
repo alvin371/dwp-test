@@ -1,0 +1,1298 @@
+{
+  "operators": [
+    {
+      "id": "telkomsel",
+      "name": "Telkomsel",
+      "prefixes": [
+        "0811",
+        "0812",
+        "0813",
+        "0821",
+        "0822",
+        "0823",
+        "0851",
+        "0852",
+        "0853"
+      ],
+      "color": "#FF0000",
+      "logo": "/operators/telkomsel.png"
+    },
+    {
+      "id": "xl",
+      "name": "XL Axiata",
+      "prefixes": [
+        "0817",
+        "0818",
+        "0819",
+        "0859",
+        "0877",
+        "0878"
+      ],
+      "color": "#0052CC",
+      "logo": "/operators/xl.png"
+    },
+    {
+      "id": "indosat",
+      "name": "Indosat Ooredoo",
+      "prefixes": [
+        "0814",
+        "0815",
+        "0816",
+        "0855",
+        "0856",
+        "0857",
+        "0858"
+      ],
+      "color": "#FFD700",
+      "logo": "/operators/indosat.png"
+    },
+    {
+      "id": "smartfren",
+      "name": "Smartfren",
+      "prefixes": [
+        "0881",
+        "0882",
+        "0883",
+        "0884",
+        "0885",
+        "0886",
+        "0887",
+        "0888",
+        "0889"
+      ],
+      "color": "#E91E63",
+      "logo": "/operators/smartfren.png"
+    },
+    {
+      "id": "axis",
+      "name": "Axis",
+      "prefixes": [
+        "0831",
+        "0832",
+        "0833",
+        "0838"
+      ],
+      "color": "#9C27B0",
+      "logo": "/operators/axis.png"
+    },
+    {
+      "id": "three",
+      "name": "Three (3)",
+      "prefixes": [
+        "0895",
+        "0896",
+        "0897",
+        "0898",
+        "0899"
+      ],
+      "color": "#FF6B00",
+      "logo": "/operators/three.png"
+    }
+  ],
+  "packages": [
+    {
+      "id": "tsel-1",
+      "operatorId": "telkomsel",
+      "name": "Combo Sakti 5GB",
+      "quota": "5GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 50000,
+      "description": "5GB data all network + unlimited social media"
+    },
+    {
+      "id": "tsel-2",
+      "operatorId": "telkomsel",
+      "name": "Combo Sakti 12GB",
+      "quota": "12GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 100000,
+      "description": "12GB data all network + unlimited social media"
+    },
+    {
+      "id": "tsel-3",
+      "operatorId": "telkomsel",
+      "name": "Combo Sakti 25GB",
+      "quota": "25GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 175000,
+      "description": "25GB data all network + unlimited social media"
+    },
+    {
+      "id": "tsel-4",
+      "operatorId": "telkomsel",
+      "name": "Flash 1GB",
+      "quota": "1GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 10000,
+      "description": "1GB data all network, berlaku 1 hari"
+    },
+    {
+      "id": "tsel-5",
+      "operatorId": "telkomsel",
+      "name": "Flash 50GB",
+      "quota": "50GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 300000,
+      "description": "50GB data all network, berlaku 30 hari"
+    },
+    {
+      "id": "tsel-3g-1",
+      "operatorId": "telkomsel",
+      "name": "Combo Mini 1GB",
+      "quota": "1GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 18000,
+      "description": "1GB data all network + unlimited SMS"
+    },
+    {
+      "id": "tsel-3g-2",
+      "operatorId": "telkomsel",
+      "name": "Combo Mini 2GB",
+      "quota": "2GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 28000,
+      "description": "2GB data all network + unlimited SMS & WhatsApp"
+    },
+    {
+      "id": "tsel-d-1",
+      "operatorId": "telkomsel",
+      "name": "Flash 2GB Harian",
+      "quota": "2GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 9000,
+      "description": "2GB data all network + 30 menit telepon"
+    },
+    {
+      "id": "tsel-d-2",
+      "operatorId": "telkomsel",
+      "name": "Flash 3GB Harian",
+      "quota": "3GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 13000,
+      "description": "3GB data all network + unlimited WhatsApp"
+    },
+    {
+      "id": "tsel-d-3",
+      "operatorId": "telkomsel",
+      "name": "Flash 5GB Harian",
+      "quota": "5GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 18000,
+      "description": "5GB data all network + unlimited social media"
+    },
+    {
+      "id": "tsel-d-4",
+      "operatorId": "telkomsel",
+      "name": "Flash 10GB Harian",
+      "quota": "10GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 28000,
+      "description": "10GB data all network + unlimited streaming"
+    },
+    {
+      "id": "tsel-d-5",
+      "operatorId": "telkomsel",
+      "name": "Flash 20GB Harian",
+      "quota": "20GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 45000,
+      "description": "20GB data all network + unlimited streaming & calls"
+    },
+    {
+      "id": "tsel-u-1",
+      "operatorId": "telkomsel",
+      "name": "Combo Unlimited 7 Hari",
+      "quota": "Unlimited",
+      "validity": 7,
+      "validityUnit": "days",
+      "price": 35000,
+      "description": "Unlimited data + unlimited WhatsApp & calls"
+    },
+    {
+      "id": "tsel-u-2",
+      "operatorId": "telkomsel",
+      "name": "Combo Unlimited 14 Hari",
+      "quota": "Unlimited",
+      "validity": 14,
+      "validityUnit": "days",
+      "price": 60000,
+      "description": "Unlimited data + unlimited WhatsApp, calls & Telkomsel Prime"
+    },
+    {
+      "id": "tsel-u-3",
+      "operatorId": "telkomsel",
+      "name": "Combo Unlimited 30 Hari",
+      "quota": "Unlimited",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 110000,
+      "description": "Unlimited data + unlimited WhatsApp, calls, SMS & Telkomsel Prime"
+    },
+    {
+      "id": "tsel-u-4",
+      "operatorId": "telkomsel",
+      "name": "Combo Unlimited 60 Hari",
+      "quota": "Unlimited",
+      "validity": 60,
+      "validityUnit": "days",
+      "price": 195000,
+      "description": "Unlimited data + 50GB video + unlimited calls, SMS & Telkomsel Prime"
+    },
+    {
+      "id": "tsel-u-5",
+      "operatorId": "telkomsel",
+      "name": "Combo Unlimited 90 Hari",
+      "quota": "Unlimited",
+      "validity": 90,
+      "validityUnit": "days",
+      "price": 270000,
+      "description": "Unlimited data + 100GB video + unlimited calls, SMS, roaming & Telkomsel Prime"
+    },
+    {
+      "id": "xl-1",
+      "operatorId": "xl",
+      "name": "XTRA Combo 5GB",
+      "quota": "5GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 45000,
+      "description": "5GB data + unlimited WhatsApp & YouTube"
+    },
+    {
+      "id": "xl-2",
+      "operatorId": "xl",
+      "name": "XTRA Combo 15GB",
+      "quota": "15GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 95000,
+      "description": "15GB data + unlimited WhatsApp & YouTube"
+    },
+    {
+      "id": "xl-3",
+      "operatorId": "xl",
+      "name": "XTRA Combo 30GB",
+      "quota": "30GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 165000,
+      "description": "30GB data + unlimited WhatsApp & YouTube"
+    },
+    {
+      "id": "xl-4",
+      "operatorId": "xl",
+      "name": "Harian 2GB",
+      "quota": "2GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 15000,
+      "description": "2GB data, berlaku 1 hari"
+    },
+    {
+      "id": "xl-3g-1",
+      "operatorId": "xl",
+      "name": "Combo Hemat 1GB",
+      "quota": "1GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 15000,
+      "description": "1GB data + unlimited WhatsApp"
+    },
+    {
+      "id": "xl-3g-2",
+      "operatorId": "xl",
+      "name": "Combo Hemat 2GB",
+      "quota": "2GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 23000,
+      "description": "2GB data + unlimited WhatsApp & SMS"
+    },
+    {
+      "id": "xl-d-1",
+      "operatorId": "xl",
+      "name": "Harian 1GB",
+      "quota": "1GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 6000,
+      "description": "1GB data all network"
+    },
+    {
+      "id": "xl-d-2",
+      "operatorId": "xl",
+      "name": "Harian 3GB",
+      "quota": "3GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 11000,
+      "description": "3GB data + unlimited WhatsApp"
+    },
+    {
+      "id": "xl-d-3",
+      "operatorId": "xl",
+      "name": "Harian 5GB",
+      "quota": "5GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 16000,
+      "description": "5GB data + unlimited WhatsApp & YouTube"
+    },
+    {
+      "id": "xl-d-4",
+      "operatorId": "xl",
+      "name": "Harian 10GB",
+      "quota": "10GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 24000,
+      "description": "10GB data + unlimited social media"
+    },
+    {
+      "id": "xl-d-5",
+      "operatorId": "xl",
+      "name": "Harian 20GB",
+      "quota": "20GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 40000,
+      "description": "20GB data + unlimited streaming & social media"
+    },
+    {
+      "id": "xl-u-1",
+      "operatorId": "xl",
+      "name": "XL Unlimited 7 Hari",
+      "quota": "Unlimited",
+      "validity": 7,
+      "validityUnit": "days",
+      "price": 29000,
+      "description": "Unlimited data + unlimited WhatsApp & SMS"
+    },
+    {
+      "id": "xl-u-2",
+      "operatorId": "xl",
+      "name": "XL Unlimited 14 Hari",
+      "quota": "Unlimited",
+      "validity": 14,
+      "validityUnit": "days",
+      "price": 52000,
+      "description": "Unlimited data + unlimited WhatsApp, YouTube & calls"
+    },
+    {
+      "id": "xl-u-3",
+      "operatorId": "xl",
+      "name": "XL Unlimited 30 Hari",
+      "quota": "Unlimited",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 92000,
+      "description": "Unlimited data + unlimited WhatsApp, YouTube, calls & SMS"
+    },
+    {
+      "id": "xl-u-4",
+      "operatorId": "xl",
+      "name": "XL Unlimited 60 Hari",
+      "quota": "Unlimited",
+      "validity": 60,
+      "validityUnit": "days",
+      "price": 165000,
+      "description": "Unlimited data + 30GB bonus + unlimited calls & SMS"
+    },
+    {
+      "id": "xl-u-5",
+      "operatorId": "xl",
+      "name": "XL Unlimited 90 Hari",
+      "quota": "Unlimited",
+      "validity": 90,
+      "validityUnit": "days",
+      "price": 235000,
+      "description": "Unlimited data + 60GB bonus + unlimited calls, SMS & international roaming"
+    },
+    {
+      "id": "indosat-1",
+      "operatorId": "indosat",
+      "name": "Freedom Internet 5GB",
+      "quota": "5GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 40000,
+      "description": "5GB data + bonus apps"
+    },
+    {
+      "id": "indosat-2",
+      "operatorId": "indosat",
+      "name": "Freedom Internet 10GB",
+      "quota": "10GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 80000,
+      "description": "10GB data + bonus apps"
+    },
+    {
+      "id": "indosat-3",
+      "operatorId": "indosat",
+      "name": "Freedom Internet 20GB",
+      "quota": "20GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 140000,
+      "description": "20GB data + bonus apps"
+    },
+    {
+      "id": "indosat-4",
+      "operatorId": "indosat",
+      "name": "Freedom Internet 40GB",
+      "quota": "40GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 240000,
+      "description": "40GB data + bonus apps + unlimited streaming"
+    },
+    {
+      "id": "indosat-3g-1",
+      "operatorId": "indosat",
+      "name": "Freedom Mini 1GB",
+      "quota": "1GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 13000,
+      "description": "1GB data + unlimited bonus apps"
+    },
+    {
+      "id": "indosat-3g-2",
+      "operatorId": "indosat",
+      "name": "Freedom Mini 2GB",
+      "quota": "2GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 20000,
+      "description": "2GB data + unlimited bonus apps & WhatsApp"
+    },
+    {
+      "id": "indosat-d-1",
+      "operatorId": "indosat",
+      "name": "Freedom Daily 1GB",
+      "quota": "1GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 5000,
+      "description": "1GB data all network"
+    },
+    {
+      "id": "indosat-d-2",
+      "operatorId": "indosat",
+      "name": "Freedom Daily 2GB",
+      "quota": "2GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 8000,
+      "description": "2GB data + unlimited WhatsApp"
+    },
+    {
+      "id": "indosat-d-3",
+      "operatorId": "indosat",
+      "name": "Freedom Daily 3GB",
+      "quota": "3GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 11000,
+      "description": "3GB data + unlimited social media"
+    },
+    {
+      "id": "indosat-d-4",
+      "operatorId": "indosat",
+      "name": "Freedom Daily 5GB",
+      "quota": "5GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 14000,
+      "description": "5GB data + unlimited bonus apps"
+    },
+    {
+      "id": "indosat-d-5",
+      "operatorId": "indosat",
+      "name": "Freedom Daily 10GB",
+      "quota": "10GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 22000,
+      "description": "10GB data + unlimited bonus apps & streaming"
+    },
+    {
+      "id": "indosat-u-1",
+      "operatorId": "indosat",
+      "name": "Freedom Unlimited 7 Hari",
+      "quota": "Unlimited",
+      "validity": 7,
+      "validityUnit": "days",
+      "price": 27000,
+      "description": "Unlimited data + unlimited bonus apps"
+    },
+    {
+      "id": "indosat-u-2",
+      "operatorId": "indosat",
+      "name": "Freedom Unlimited 14 Hari",
+      "quota": "Unlimited",
+      "validity": 14,
+      "validityUnit": "days",
+      "price": 48000,
+      "description": "Unlimited data + unlimited bonus apps & SMS"
+    },
+    {
+      "id": "indosat-u-3",
+      "operatorId": "indosat",
+      "name": "Freedom Unlimited 30 Hari",
+      "quota": "Unlimited",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 82000,
+      "description": "Unlimited data + unlimited bonus apps, calls & SMS"
+    },
+    {
+      "id": "indosat-u-4",
+      "operatorId": "indosat",
+      "name": "Freedom Unlimited 60 Hari",
+      "quota": "Unlimited",
+      "validity": 60,
+      "validityUnit": "days",
+      "price": 145000,
+      "description": "Unlimited data + 20GB extra quota + unlimited calls & SMS"
+    },
+    {
+      "id": "indosat-u-5",
+      "operatorId": "indosat",
+      "name": "Freedom Unlimited 90 Hari",
+      "quota": "Unlimited",
+      "validity": 90,
+      "validityUnit": "days",
+      "price": 205000,
+      "description": "Unlimited data + 40GB extra quota + unlimited calls, SMS & roaming bonus"
+    },
+    {
+      "id": "smartfren-1",
+      "operatorId": "smartfren",
+      "name": "Unlimited Starter",
+      "quota": "Unlimited",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 60000,
+      "description": "Unlimited data dengan kecepatan hingga 1Mbps"
+    },
+    {
+      "id": "smartfren-2",
+      "operatorId": "smartfren",
+      "name": "Unlimited Basic",
+      "quota": "Unlimited",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 90000,
+      "description": "Unlimited data dengan kecepatan hingga 3Mbps"
+    },
+    {
+      "id": "smartfren-3",
+      "operatorId": "smartfren",
+      "name": "Super 4G 5GB",
+      "quota": "5GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 35000,
+      "description": "5GB data 4G LTE"
+    },
+    {
+      "id": "smartfren-3g-1",
+      "operatorId": "smartfren",
+      "name": "Smart Mini 1GB",
+      "quota": "1GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 11000,
+      "description": "1GB data 4G LTE"
+    },
+    {
+      "id": "smartfren-3g-2",
+      "operatorId": "smartfren",
+      "name": "Smart Mini 2GB",
+      "quota": "2GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 18000,
+      "description": "2GB data 4G LTE + unlimited WhatsApp"
+    },
+    {
+      "id": "smartfren-d-1",
+      "operatorId": "smartfren",
+      "name": "Smart Harian 1GB",
+      "quota": "1GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 4000,
+      "description": "1GB data all network"
+    },
+    {
+      "id": "smartfren-d-2",
+      "operatorId": "smartfren",
+      "name": "Smart Harian 2GB",
+      "quota": "2GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 7000,
+      "description": "2GB data all network"
+    },
+    {
+      "id": "smartfren-d-3",
+      "operatorId": "smartfren",
+      "name": "Smart Harian 3GB",
+      "quota": "3GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 9500,
+      "description": "3GB data + unlimited social media"
+    },
+    {
+      "id": "smartfren-d-4",
+      "operatorId": "smartfren",
+      "name": "Smart Harian 5GB",
+      "quota": "5GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 13000,
+      "description": "5GB data + unlimited social media"
+    },
+    {
+      "id": "smartfren-d-5",
+      "operatorId": "smartfren",
+      "name": "Smart Harian 10GB",
+      "quota": "10GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 19000,
+      "description": "10GB data + unlimited streaming"
+    },
+    {
+      "id": "smartfren-u-1",
+      "operatorId": "smartfren",
+      "name": "Unlimited Power 7 Hari",
+      "quota": "Unlimited",
+      "validity": 7,
+      "validityUnit": "days",
+      "price": 21000,
+      "description": "Unlimited data hingga 2Mbps + unlimited social media"
+    },
+    {
+      "id": "smartfren-u-2",
+      "operatorId": "smartfren",
+      "name": "Unlimited Power 14 Hari",
+      "quota": "Unlimited",
+      "validity": 14,
+      "validityUnit": "days",
+      "price": 38000,
+      "description": "Unlimited data hingga 3Mbps + unlimited social media & streaming"
+    },
+    {
+      "id": "smartfren-u-3",
+      "operatorId": "smartfren",
+      "name": "Unlimited Power 60 Hari",
+      "quota": "Unlimited",
+      "validity": 60,
+      "validityUnit": "days",
+      "price": 120000,
+      "description": "Unlimited data hingga 8Mbps + unlimited streaming, calls & SMS"
+    },
+    {
+      "id": "smartfren-u-4",
+      "operatorId": "smartfren",
+      "name": "Unlimited Power 90 Hari",
+      "quota": "Unlimited",
+      "validity": 90,
+      "validityUnit": "days",
+      "price": 170000,
+      "description": "Unlimited data hingga 10Mbps + unlimited streaming, calls, SMS & bonus roaming"
+    },
+    {
+      "id": "axis-1",
+      "operatorId": "axis",
+      "name": "Bronet 4GB",
+      "quota": "4GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 30000,
+      "description": "4GB data + unlimited WhatsApp"
+    },
+    {
+      "id": "axis-2",
+      "operatorId": "axis",
+      "name": "Bronet 10GB",
+      "quota": "10GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 70000,
+      "description": "10GB data + unlimited WhatsApp & TikTok"
+    },
+    {
+      "id": "axis-3",
+      "operatorId": "axis",
+      "name": "Bronet 20GB",
+      "quota": "20GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 120000,
+      "description": "20GB data + unlimited WhatsApp, TikTok & Instagram"
+    },
+    {
+      "id": "axis-3g-1",
+      "operatorId": "axis",
+      "name": "Bronet Mini 1GB",
+      "quota": "1GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 10000,
+      "description": "1GB data + unlimited WhatsApp"
+    },
+    {
+      "id": "axis-3g-2",
+      "operatorId": "axis",
+      "name": "Bronet Mini 2GB",
+      "quota": "2GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 17000,
+      "description": "2GB data + unlimited WhatsApp & TikTok"
+    },
+    {
+      "id": "axis-d-1",
+      "operatorId": "axis",
+      "name": "Bronet Harian 1GB",
+      "quota": "1GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 4500,
+      "description": "1GB data all network"
+    },
+    {
+      "id": "axis-d-2",
+      "operatorId": "axis",
+      "name": "Bronet Harian 2GB",
+      "quota": "2GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 7000,
+      "description": "2GB data + unlimited WhatsApp"
+    },
+    {
+      "id": "axis-d-3",
+      "operatorId": "axis",
+      "name": "Bronet Harian 3GB",
+      "quota": "3GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 9000,
+      "description": "3GB data + unlimited WhatsApp & TikTok"
+    },
+    {
+      "id": "axis-d-4",
+      "operatorId": "axis",
+      "name": "Bronet Harian 5GB",
+      "quota": "5GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 13000,
+      "description": "5GB data + unlimited social media"
+    },
+    {
+      "id": "axis-d-5",
+      "operatorId": "axis",
+      "name": "Bronet Harian 10GB",
+      "quota": "10GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 20000,
+      "description": "10GB data + unlimited social media & streaming"
+    },
+    {
+      "id": "axis-u-1",
+      "operatorId": "axis",
+      "name": "Axis Unlimited 7 Hari",
+      "quota": "Unlimited",
+      "validity": 7,
+      "validityUnit": "days",
+      "price": 23000,
+      "description": "Unlimited data + unlimited WhatsApp & TikTok"
+    },
+    {
+      "id": "axis-u-2",
+      "operatorId": "axis",
+      "name": "Axis Unlimited 14 Hari",
+      "quota": "Unlimited",
+      "validity": 14,
+      "validityUnit": "days",
+      "price": 42000,
+      "description": "Unlimited data + unlimited WhatsApp, TikTok & Instagram"
+    },
+    {
+      "id": "axis-u-3",
+      "operatorId": "axis",
+      "name": "Axis Unlimited 30 Hari",
+      "quota": "Unlimited",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 78000,
+      "description": "Unlimited data + unlimited WhatsApp, TikTok, Instagram & calls"
+    },
+    {
+      "id": "axis-u-4",
+      "operatorId": "axis",
+      "name": "Axis Unlimited 60 Hari",
+      "quota": "Unlimited",
+      "validity": 60,
+      "validityUnit": "days",
+      "price": 138000,
+      "description": "Unlimited data + unlimited WhatsApp, TikTok, Instagram, calls & SMS"
+    },
+    {
+      "id": "axis-u-5",
+      "operatorId": "axis",
+      "name": "Axis Unlimited 90 Hari",
+      "quota": "Unlimited",
+      "validity": 90,
+      "validityUnit": "days",
+      "price": 195000,
+      "description": "Unlimited data + unlimited WhatsApp, TikTok, Instagram, calls, SMS & 5GB bonus"
+    },
+    {
+      "id": "three-1",
+      "operatorId": "three",
+      "name": "AON 5GB",
+      "quota": "5GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 38000,
+      "description": "5GB data all operator"
+    },
+    {
+      "id": "three-2",
+      "operatorId": "three",
+      "name": "AON 10GB",
+      "quota": "10GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 68000,
+      "description": "10GB data all operator"
+    },
+    {
+      "id": "three-3",
+      "operatorId": "three",
+      "name": "AON 25GB",
+      "quota": "25GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 145000,
+      "description": "25GB data all operator + bonus YouTube"
+    },
+    {
+      "id": "three-4",
+      "operatorId": "three",
+      "name": "Unlimited Max",
+      "quota": "Unlimited",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 199000,
+      "description": "Unlimited data all operator"
+    },
+    {
+      "id": "three-3g-1",
+      "operatorId": "three",
+      "name": "AON Mini 1GB",
+      "quota": "1GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 11000,
+      "description": "1GB data all operator"
+    },
+    {
+      "id": "three-3g-2",
+      "operatorId": "three",
+      "name": "AON Mini 2GB",
+      "quota": "2GB",
+      "validity": 30,
+      "validityUnit": "days",
+      "price": 19000,
+      "description": "2GB data all operator + unlimited YouTube"
+    },
+    {
+      "id": "three-d-1",
+      "operatorId": "three",
+      "name": "AON Harian 1GB",
+      "quota": "1GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 5000,
+      "description": "1GB data all operator"
+    },
+    {
+      "id": "three-d-2",
+      "operatorId": "three",
+      "name": "AON Harian 2GB",
+      "quota": "2GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 8000,
+      "description": "2GB data all operator + unlimited WhatsApp"
+    },
+    {
+      "id": "three-d-3",
+      "operatorId": "three",
+      "name": "AON Harian 3GB",
+      "quota": "3GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 10000,
+      "description": "3GB data all operator + unlimited social media"
+    },
+    {
+      "id": "three-d-4",
+      "operatorId": "three",
+      "name": "AON Harian 5GB",
+      "quota": "5GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 14000,
+      "description": "5GB data all operator + unlimited YouTube"
+    },
+    {
+      "id": "three-d-5",
+      "operatorId": "three",
+      "name": "AON Harian 10GB",
+      "quota": "10GB",
+      "validity": 1,
+      "validityUnit": "days",
+      "price": 21000,
+      "description": "10GB data all operator + unlimited streaming"
+    },
+    {
+      "id": "three-u-1",
+      "operatorId": "three",
+      "name": "Unlimited Max 7 Hari",
+      "quota": "Unlimited",
+      "validity": 7,
+      "validityUnit": "days",
+      "price": 25000,
+      "description": "Unlimited data all operator + unlimited YouTube"
+    },
+    {
+      "id": "three-u-2",
+      "operatorId": "three",
+      "name": "Unlimited Max 14 Hari",
+      "quota": "Unlimited",
+      "validity": 14,
+      "validityUnit": "days",
+      "price": 45000,
+      "description": "Unlimited data all operator + unlimited YouTube & WhatsApp"
+    },
+    {
+      "id": "three-u-3",
+      "operatorId": "three",
+      "name": "Unlimited Max 60 Hari",
+      "quota": "Unlimited",
+      "validity": 60,
+      "validityUnit": "days",
+      "price": 142000,
+      "description": "Unlimited data all operator + unlimited YouTube, WhatsApp, calls & SMS"
+    },
+    {
+      "id": "three-u-4",
+      "operatorId": "three",
+      "name": "Unlimited Max 90 Hari",
+      "quota": "Unlimited",
+      "validity": 90,
+      "validityUnit": "days",
+      "price": 200000,
+      "description": "Unlimited data all operator + unlimited YouTube, WhatsApp, calls, SMS & bonus roaming"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "name": "John Doe",
+      "email": "demo@example.com",
+      "password": "password123",
+      "phone": "081234567890",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.demo.token",
+      "otp": "123456"
+    },
+    {
+      "id": "user-2",
+      "name": "Budi Santoso",
+      "email": "budi@example.com",
+      "password": "password123",
+      "phone": "081212345678",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.user2.token",
+      "otp": "123456"
+    },
+    {
+      "id": "user-3",
+      "name": "Siti Rahayu",
+      "email": "siti@example.com",
+      "password": "password123",
+      "phone": "085698765432",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.user3.token",
+      "otp": "123456"
+    },
+    {
+      "id": "user-4",
+      "name": "Ahmad Fauzi",
+      "email": "ahmad@example.com",
+      "password": "password123",
+      "phone": "087812301234",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.user4.token",
+      "otp": "123456"
+    },
+    {
+      "id": "user-5",
+      "name": "Dewi Lestari",
+      "email": "dewi@example.com",
+      "password": "password123",
+      "phone": "089612345678",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.user5.token",
+      "otp": "123456"
+    },
+    {
+      "id": "user-6",
+      "name": "Rizki Maulana",
+      "email": "rizki@example.com",
+      "password": "password123",
+      "phone": "083156781234",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.user6.token",
+      "otp": "123456"
+    }
+  ],
+  "saved_numbers": [
+    {
+      "id": "sn-1",
+      "userId": "user-1",
+      "phoneNumber": "081234567890",
+      "label": "Nomor Saya",
+      "operatorId": "telkomsel"
+    },
+    {
+      "id": "sn-2",
+      "userId": "user-1",
+      "phoneNumber": "085612345678",
+      "label": "Istri",
+      "operatorId": "indosat"
+    },
+    {
+      "id": "sn-3",
+      "userId": "user-1",
+      "phoneNumber": "087812345678",
+      "label": "Anak",
+      "operatorId": "xl"
+    },
+    {
+      "id": "7ca0",
+      "label": "Adik",
+      "phoneNumber": "083143130419",
+      "operatorId": "axis",
+      "userId": "user-1"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn-1",
+      "userId": "user-1",
+      "phoneNumber": "081234567890",
+      "operatorId": "telkomsel",
+      "packageId": "tsel-2",
+      "packageName": "Combo Sakti 12GB",
+      "amount": 100000,
+      "paymentMethod": "e-wallet",
+      "status": "success",
+      "createdAt": "2026-03-01T10:30:00.000Z",
+      "updatedAt": "2026-03-01T10:30:15.000Z"
+    },
+    {
+      "id": "txn-2",
+      "userId": "user-1",
+      "phoneNumber": "085612345678",
+      "operatorId": "indosat",
+      "packageId": "indosat-1",
+      "packageName": "Freedom Internet 5GB",
+      "amount": 40000,
+      "paymentMethod": "transfer",
+      "status": "success",
+      "createdAt": "2026-02-28T14:20:00.000Z",
+      "updatedAt": "2026-02-28T14:20:30.000Z"
+    },
+    {
+      "id": "txn-3",
+      "userId": "user-1",
+      "phoneNumber": "087812345678",
+      "operatorId": "xl",
+      "packageId": "xl-1",
+      "packageName": "XTRA Combo 5GB",
+      "amount": 45000,
+      "paymentMethod": "credit-card",
+      "status": "pending",
+      "createdAt": "2026-02-27T09:15:00.000Z",
+      "updatedAt": "2026-02-27T09:15:00.000Z"
+    },
+    {
+      "id": "txn-4",
+      "userId": "user-1",
+      "phoneNumber": "081234567890",
+      "operatorId": "telkomsel",
+      "packageId": "tsel-4",
+      "packageName": "Flash 1GB",
+      "amount": 10000,
+      "paymentMethod": "e-wallet",
+      "status": "failed",
+      "createdAt": "2026-02-25T18:45:00.000Z",
+      "updatedAt": "2026-02-25T18:45:10.000Z"
+    },
+    {
+      "id": "txn-5",
+      "userId": "user-1",
+      "phoneNumber": "085612345678",
+      "operatorId": "indosat",
+      "packageId": "indosat-3",
+      "packageName": "Freedom Internet 20GB",
+      "amount": 140000,
+      "paymentMethod": "transfer",
+      "status": "success",
+      "createdAt": "2026-02-20T12:00:00.000Z",
+      "updatedAt": "2026-02-20T12:00:45.000Z"
+    },
+    {
+      "id": "5edc",
+      "userId": "user-1",
+      "phoneNumber": "083143130419",
+      "operatorId": "axis",
+      "packageId": "axis-2",
+      "packageName": "Bronet 10GB",
+      "amount": 70000,
+      "paymentMethod": "e-wallet",
+      "status": "success",
+      "createdAt": "2026-03-03T13:07:30.867Z",
+      "updatedAt": "2026-03-03T13:07:30.867Z"
+    },
+    {
+      "id": "d5ec",
+      "userId": "user-1",
+      "phoneNumber": "081234567890",
+      "operatorId": "telkomsel",
+      "packageId": "tsel-u-2",
+      "packageName": "Combo Unlimited 14 Hari",
+      "amount": 60000,
+      "paymentMethod": "e-wallet",
+      "status": "success",
+      "createdAt": "2026-03-04T00:04:52.882Z",
+      "updatedAt": "2026-03-04T00:04:52.882Z"
+    },
+    {
+      "id": "454a",
+      "userId": "user-1",
+      "phoneNumber": "081234567890",
+      "operatorId": "telkomsel",
+      "packageId": "tsel-u-2",
+      "packageName": "Combo Unlimited 14 Hari",
+      "amount": 64800,
+      "paymentMethod": "Bank Transfer — Mandiri",
+      "status": "pending",
+      "createdAt": "2026-03-04T01:51:36.385Z",
+      "updatedAt": "2026-03-04T01:51:36.385Z"
+    },
+    {
+      "id": "c166",
+      "userId": "user-1",
+      "phoneNumber": "081234567890",
+      "operatorId": "telkomsel",
+      "packageId": "tsel-u-2",
+      "packageName": "Combo Unlimited 14 Hari",
+      "amount": 64800,
+      "paymentMethod": "Bank Transfer — CIMB Niaga",
+      "status": "pending",
+      "createdAt": "2026-03-04T02:01:26.149Z",
+      "updatedAt": "2026-03-04T02:01:26.149Z"
+    },
+    {
+      "id": "3bad",
+      "userId": "user-1",
+      "phoneNumber": "087812345678",
+      "operatorId": "xl",
+      "packageId": "xl-u-3",
+      "packageName": "XL Unlimited 30 Hari",
+      "amount": 99360,
+      "paymentMethod": "Bank Transfer — Bank Danamon",
+      "status": "success",
+      "createdAt": "2026-03-04T02:10:49.193Z",
+      "updatedAt": "2026-03-04T02:10:59.400Z"
+    },
+    {
+      "id": "7be3",
+      "userId": "user-1",
+      "phoneNumber": "081234567890",
+      "operatorId": "telkomsel",
+      "packageId": "tsel-u-3",
+      "packageName": "Combo Unlimited 30 Hari",
+      "amount": 118800,
+      "paymentMethod": "Bank Transfer — Bank Permata",
+      "status": "success",
+      "createdAt": "2026-03-04T07:42:01.538Z",
+      "updatedAt": "2026-03-04T07:42:11.833Z"
+    }
+  ],
+  "payment_methods": [
+    {
+      "id": "pm-1",
+      "userId": "user-1",
+      "type": "credit_card",
+      "brand": "visa",
+      "lastFour": "1234",
+      "expiryMonth": "12",
+      "expiryYear": "25",
+      "isDefault": false,
+      "isVerified": true
+    },
+    {
+      "id": "pm-2",
+      "userId": "user-1",
+      "type": "credit_card",
+      "brand": "mastercard",
+      "lastFour": "5678",
+      "expiryMonth": "08",
+      "expiryYear": "26",
+      "isDefault": false,
+      "isVerified": true
+    },
+    {
+      "id": "pm-4",
+      "userId": "user-1",
+      "type": "e_wallet",
+      "walletBrand": "gopay",
+      "accountIdentifier": "0812****7890",
+      "isDefault": true,
+      "isVerified": true
+    },
+    {
+      "id": "pm-5",
+      "userId": "user-1",
+      "type": "e_wallet",
+      "walletBrand": "ovo",
+      "accountIdentifier": "0881****5432",
+      "isDefault": false,
+      "isVerified": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

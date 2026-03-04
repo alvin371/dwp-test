@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DWP Test
 
-## Getting Started
+Aplikasi web untuk top up paket data internet berbasis Next.js + json-server (mock API).
 
-First, run the development server:
+## Prasyarat
+
+- Node.js LTS (disarankan versi terbaru)
+- `pnpm` minimal `9.x` (direkomendasikan `10.x`)
+
+Cek versi:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+node -v
+pnpm -v
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Install Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Install dependency:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+pnpm install
+```
 
-## Learn More
+2. Siapkan environment:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+cp .env.example .env
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Menjalankan Project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Jalankan frontend saja:
 
-## Deploy on Vercel
+```bash
+pnpm dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Jalankan mock API saja:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pnpm mock
+```
+
+Jalankan frontend + mock API bersamaan:
+
+```bash
+pnpm dev:full
+```
+
+Alamat default:
+
+- App: `http://localhost:3000`
+- Mock API: `http://localhost:3001`
+
+## Struktur Project (Ringkas)
+
+```text
+dwp-test/
+├── public/                # aset statis
+├── src/
+│   ├── app/               # halaman & layout (App Router)
+│   ├── commons/           # route, endpoint, constants, shared types
+│   ├── components/        # komponen layout/global
+│   ├── configs/           # konfigurasi env client
+│   ├── libs/              # axios, react-query, cookies, store
+│   ├── modules/           # layer API per domain (auth, checkout, customer, dst)
+│   ├── types/             # tipe global
+│   └── utils/             # helper umum
+├── db.json                # data mock json-server
+├── package.json           # scripts & dependencies
+└── pnpm-lock.yaml         # lockfile pnpm
+```
+
+## Fitur Utama
+
+| Fitur | Deskripsi | Route |
+|---|---|---|
+| Login OTP | Login via nomor HP/email dengan verifikasi OTP | `/login` |
+| Checkout Paket | Pilih paket data dan review pesanan sebelum bayar | `/checkout` |
+| Status Checkout | Halaman status transaksi selesai/menunggu | `/checkout/success`, `/checkout/pending` |
+| Dashboard Customer | Ringkasan akun customer setelah login | `/customer` |
+| Profile & Security | Update profil dan ubah password | `/customer/profile` |
+| Saved Numbers | Simpan dan hapus nomor tujuan favorit | `/customer/saved-numbers` |
+| Payment Methods | Tambah/edit/hapus metode pembayaran dan set default | `/customer/payment-methods` |
+| Riwayat Transaksi | Lihat daftar transaksi, filter status, detail transaksi | `/customer/transactions` |
+
+## Akun Demo (Mock)
+
+| Nama | Email | Phone | OTP |
+|---|---|---|---|
+| John Doe | `demo@example.com` | `081234567890` | `123456` |
+| Budi Santoso | `budi@example.com` | `081212345678` | `123456` |
+| Siti Rahayu | `siti@example.com` | `085698765432` | `123456` |
+| Ahmad Fauzi | `ahmad@example.com` | `087812301234` | `123456` |
+| Dewi Lestari | `dewi@example.com` | `089612345678` | `123456` |
+| Rizki Maulana | `rizki@example.com` | `083156781234` | `123456` |
